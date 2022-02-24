@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Capps Lawn Care</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="service.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/dc77adbb03.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <h1>Capps Lawn Care</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="service.html">Services</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <section class="testimonials">
+        <h1>---- What We Offer ----</h1>
+        <div class="indicator">
+            <span class="btn active"></span>
+            <span class="btn"></span>
+            <span class="btn"></span>
+            <span class="btn"></span>
+        </div>
+        <i class="fa fa-arrow-left" onclick="Left()"></i>
+            <i class="fa fa-arrow-right" onclick="Right()"></i>
+
+        <div class="row" id="slide">
+            <div class="testimonial-col">
+                <div class="charm">
+                    <h3>Lawn Service:</h3>
+                    <p>Lawn care is our specialty and main area of focus. 
+                        When we come to your property, we include the following:<br><br>
+                        1: Picking up any toys/items on the lawn<br>
+                        2: Trimming with a line trimmer around all trees, fences, curbs, etc.<br>
+                        3: Edging with a metal blade edger<br>
+                        4: Mowing<br>
+                        5: Cleaning all clippings and debris<br><br>
+                        Price is determined based on the total area of grass. Mowing only is also available at discounted rates.</p>
+                </div>
+                <img src="1.jpg" class="img">
+            </div>
+            
+
+            <div class="testimonial-col">
+                <div class="charm">
+                    <h3>Lawn Service:</h3>
+                    <p>Lawn care is our specialty and main area of focus. 
+                        When we come to your property, we include the following:<br><br>
+                        1: Picking up any toys/items on the lawn<br>
+                        2: Trimming with a line trimmer around all trees, fences, curbs, etc.<br>
+                        3: Edging with a metal blade edger<br>
+                        4: Mowing<br>
+                        5: Cleaning all clippings and debris<br><br>
+                        Price is determined based on the total area of grass. Mowing only is also available at discounted rates.</p>
+                </div>
+                <img src="2.jpg" class="img">
+            </div>
+
+            <div class="testimonial-col">
+                <div class="charm">
+                    <h3>Lawn Service:</h3>
+                    <p>Lawn care is our specialty and main area of focus. 
+                        When we come to your property, we include the following:<br><br>
+                        1: Picking up any toys/items on the lawn<br>
+                        2: Trimming with a line trimmer around all trees, fences, curbs, etc.<br>
+                        3: Edging with a metal blade edger<br>
+                        4: Mowing<br>
+                        5: Cleaning all clippings and debris<br>
+                        Price is determined based on the total area of grass. Mowing only is also available at discounted rates.</p>
+                </div>
+                <img src="1.jpg" class="img">
+            </div>
+
+            <div class="testimonial-col">
+                <div class="charm">
+                    <h3>Lawn Service:</h3>
+                    <p>Lawn care is our specialty and main area of focus. 
+                        When we come to your property, we include the following:<br><br>
+                        1: Picking up any toys/items on the lawn<br>
+                        2: Trimming with a line trimmer around all trees, fences, curbs, etc.<br>
+                        3: Edging with a metal blade edger<br>
+                        4: Mowing<br>
+                        5: Cleaning all clippings and debris<br><br>
+                        Price is determined based on the total area of grass. Mowing only is also available at discounted rates.</p>
+                </div>
+                <img src="1.jpg" class="img">
+            </div>
+        </div>
+    </section>
+    <div class="background-1"></div>
+    <div class="background-2">
+        <h3>(385)242-9609</h3>
+    </div>
+
+
+    <script>
+
+        var btn = document.getElementsByClassName("btn");
+        var slide = document.getElementById("slide");
+
+        btn[0].onclick = function(){
+            slide.style.transform = "translateX(0px)";
+        }
+        btn[1].onclick = function(){
+            slide.style.transform = "translateX(-1550px)";
+        }
+        btn[2].onclick = function(){
+            slide.style.transform = "translateX(-3100px)";
+        }
+        btn[3].onclick = function(){
+            slide.style.transform = "translateX(-4650px)";
+        }
+
+        // Arrows
+        var gay = document.getElementById("slide");
+
+    function Left(){
+        gay.style.transform = "translateX(-2800px)";
+    }
+
+    function Right(){
+        gay.style.transform = "translateX(-1550px)";
+    }
+
+    </script>
+
+</body>
+</html>

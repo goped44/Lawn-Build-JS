@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.col-1 h3{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    margin-top: 20%;
+    right: 68%;
+    text-align: center;
+}
+.col-2 h3{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    right: 15%;
+    margin-top: 20%;
+    text-align: center;
+}
